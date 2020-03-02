@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "name": "1 liter Water",
+    "catogery": "Drinking Water",
+    "Price": "20",
+    "Quantity": "1 Litre",
+    "img": "one.jpg"
+  },
+  {
+    "id": "2",
+    "name": "2 liter Water",
+    "catogery": "Drinking Water",
+    "Price": "30",
+    "Quantity": "2 Liter",
+    "img": "two.jpg"
+  },
+  {
+    "id": "3",
+    "name": "5 liter Water",
+    "catogery": "Drinking Water",
+    "Price": "50",
+    "Quantity": "5 Litre",
+    "img": "three.jpg"
+  },
+  {
+    "id": "4",
+    "name": "10 liter Water",
+    "catogery": "Drinking Water",
+    "Price": "100",
+    "Quantity": "10 Litre",
+    "img": "four.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Double Filtered Water",
+    "catogery": "Drinking Water",
+    "Price": "200",
+    "Quantity": "10 Litre",
+    "img": "five.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Sea Water",
+    "catogery": "Non-filterd Water",
+    "Price": "300",
+    "Quantity": "200 Litre",
+    "img": "six.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Sea Water",
+    "catogery": "Non-filterd Water",
+    "Price": "500",
+    "Quantity": "500 Litre",
+    "img": "seven.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Sea Water",
+    "catogery": "Non-filterd Water",
+    "Price": "1000",
+    "Quantity": "700 Litre",
+    "img": "eight.jpg"
+  }
+]
