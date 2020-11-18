@@ -4,10 +4,10 @@ import "../styles.css";
 function Contact() {
   const [show, setShow] = useState(false);
 
-  handleClose = () => {
+  const handleClose = () => {
     setShow(false);
   };
-  handleOpen = () => {
+  const handleOpen = () => {
     setShow(true);
   };
   return (
