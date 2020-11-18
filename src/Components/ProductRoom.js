@@ -8,14 +8,14 @@ class ProductRoom extends Component {
     // console.log(this.props.match.params.id);
     // console.log(this.props.product);
     const id = this.props.match.params.id;
-    const filteredOne = this.props.product.filter(item => id === item.id);
+    const filteredOne = this.props.product.filter((item) => id === item.id);
     //  console.log(filterd);
     return (
       <Container>
-        {filteredOne.map(filtered => (
+        {filteredOne.map((filtered) => (
           <Card>
             <Card.Header>{filtered.name}</Card.Header>
-            <Card.Img variant="top" src={filtered.img} />
+            <Card.Img variant="top" src={`/${filtered.img}`} />
             <Card.Body>
               <Card.Title>{filtered.catogery}</Card.Title>
               <Card.Text>
@@ -34,7 +34,7 @@ class ProductRoom extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
     product: state.product
   };
