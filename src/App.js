@@ -33,7 +33,7 @@ class App extends Component {
           <Route path="/productlist" component={ProductList} />
           <Route path="/productroom/:id" component={ProductRoom} />
           <Route path="/cart" component={Cart} />
-          <Route path="/contact" component={Contact} />
+          {/* <Route path="/contact" component={Contact} /> */}
         </Switch>
         <Footer />
       </div>
@@ -41,18 +41,15 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    product: state.product
+    product: state.product,
   };
 };
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
-    fetchUsers: () => dispatch(fetchUsers())
+    fetchUsers: () => dispatch(fetchUsers()),
   };
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
