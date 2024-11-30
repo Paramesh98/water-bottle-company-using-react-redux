@@ -23,9 +23,9 @@ class NavBar extends Component {
             <Nav.Link>
               <Link to="/productlist">Products</Link>
             </Nav.Link>
-            <Nav.Link>
+            {/* <Nav.Link>
               <Link to="contact">Contact Us</Link>
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
 
           <Nav>
@@ -37,9 +37,9 @@ class NavBar extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    cart: state.cart
+    cart: state.cart,
   };
 };
 
